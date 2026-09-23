@@ -91,7 +91,9 @@ print(name)
 
 ap = print(name.title())
 
-exec("ap")
+ak = exec("ap")
+
+exec("ak")
 
 nam = "Covarrubias"
 print(nam.upper())
