@@ -100,3 +100,5 @@ print(nam.upper())
 
 na = "Sanchez"
 print(na.lower())
+
+  
