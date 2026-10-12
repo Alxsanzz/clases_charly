@@ -1,4 +1,4 @@
-
+"""
 print("\ntel dia de hoy aprendere a trabajar cn listas\n".upper())
 
 magicians = ["harry", "ron", "hermione", "snape", "voldemort"]
@@ -21,27 +21,27 @@ for magician in magicians:
     print(f"No puedo esperar para ver el siguiente hechizo {magician.title()}")
 print("Gracias a todos, ese fue un gran espectaculo")
 
-
+"""
 """
     La identación es muy importante en Python, ya que indica qué código pertenece a qué bloque. 
     En este caso, el código dentro del bucle for está indentado para mostrar que pertenece al bucle.
 """
 
 # No olvidemos identar - Traceback identatiónError
-magicians = ["alice", "david", "caroline"]
-for magician in magicians:
+#magicians = ["alice", "david", "caroline"]
+#for magician in magicians:
 # print(magician) # Identation Error
 
 # Error de logica
 #for magician in magicians:
-    print(magician) 
-print(f"No puedo esperar para ver el siguiente hechizo {magician.title()}")
+#    print(magician) 
+#print(f"No puedo esperar para ver el siguiente hechizo {magician.title()}")
 
 # Identación inncecesaria
-messsage = "Hello Python world!"
-    print(messsage) # IndentationError: unexpected indent
+#messsage = "Hello Python world!"
+#    print(messsage) # IndentationError: unexpected indent
 
 
 # NO olvidar los dos puntos
-for magician in magicians
-    print(magician) # SyntaxError: expected ':'
+#for magician in magicians
+#    print(magician) # SyntaxError: expected ':'
